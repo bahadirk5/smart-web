@@ -34,7 +34,7 @@ const SidebarComponent = () => {
     { icon: FileVideo, label: "Records", path: "/records" },
     { icon: Grid, label: "Templates", path: "/templates" },
     { icon: Terminal, label: "I/O", path: "/io" },
-    { icon: Cpu, label: "Slave Devices", path: "/slave-devices" },
+    { icon: Cpu, label: "ECS", path: "/ecs" },
     { icon: Settings, label: "Settings", path: "/settings" },
   ];
 

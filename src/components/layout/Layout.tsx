@@ -5,17 +5,6 @@ import Header from "./Header";
 
 const Layout = () => {
   return (
-    // <SidebarProvider>
-    //   <div className="flex min-h-screen bg-background">
-    //     <Sidebar />
-    //     <div className="flex flex-1 flex-col w-full">
-    //       <Header />
-    //       <main className="flex-1 w-full">
-    //         <Outlet />
-    //       </main>
-    //     </div>
-    //   </div>
-    // </SidebarProvider>
     <SidebarProvider>
       <Sidebar />
       <SidebarInset>

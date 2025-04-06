@@ -28,7 +28,7 @@ function App() {
             <Route path="templates" element={<Templates />} />
             <Route path="io" element={<IO />} />
             <Route path="settings" element={<Settings />} />
-            <Route path="slave-devices" element={<SlaveDevices />} />
+            <Route path="ecs" element={<SlaveDevices />} />
           </Route>
         </Routes>
       </Router>
